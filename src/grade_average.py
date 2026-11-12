@@ -7,4 +7,4 @@ def calculate_average(mark_one, mark_two):
     if not 0 <= mark_one <= 100 or not 0 <= mark_two <= 100:
         raise ValueError("argument outside permitted range")
 
-    return (mark_one + mark_two) / 2
+    return (mark_one + mark_two) // 2
