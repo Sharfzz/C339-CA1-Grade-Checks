@@ -26,7 +26,7 @@ def test_calculate_average_valid(mark_one, mark_two, expected):
         (50, -1, ValueError),     # mark_two just below minimum
         (50, 101, ValueError),    # mark_two just above maximum
         
-        # TYPE ERROR: Invalid data types (decimals, strings, booleans, etc.)
+        # TYPE ERROR: Invalid data types (decimals, strings, booleans, etc.).
         (50.5, 50, TypeError),    # Float (decimal)
         ("50", 50, TypeError),    # String
         (True, 50, TypeError),    # Boolean in first parameter
