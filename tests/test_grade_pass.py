@@ -47,3 +47,5 @@ def test_has_passed_type_error(score):
     # Verify the function crashes with a TypeError as required
     with pytest.raises(TypeError):
         has_passed(score)
+        
+    #concurrency test
